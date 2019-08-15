@@ -3,7 +3,7 @@ const idade = require("./data.json");
 
 //Mostrar a idade dos passageiros
 // const novaIdade = idade.map(idade => `${idade.age}`);
- 
- const novaIdade = idade.map(idade => `${idade.first_name} tem idade: ${idade.age}`);
- console.log(novaIdade);
+
+const novaIdade = idade.map(idade => `${idade.first_name} tem idade: ${idade.age}`);
+console.log(novaIdade);
 
